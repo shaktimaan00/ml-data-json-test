@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left">
+            <div class="charts-container">
+                <div class="charts chart1">
+                    <canvas id="myChart" width="100" height="100"></canvas>
+                </div>
+
+                <div class="charts chart2">
+                    <canvas id="mynewChart" width="100" height="100"></canvas>
+                </div>
+            </div>
+            <div class="btn">
+                <button id="btn" disabled>Set Reminder</button>
+            </div>
+            <div class="expected-price">
+                <div class="first">
+                    <p class="r-icon">₹</p><p id="first">14000</p>
+                </div>
+                <div class="second">
+                    <p class="r-icon">₹</p><p id="second">14000</p>
+                </div>
+                <div class="third">
+                    <p class="r-icon">₹</p><p id="third">14000</p>
+                </div>
+            </div>
+        </div>
+        <div class="table-container">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Price</th>
+                        <th>% Change</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>January</td>
+                        <td>
+                            <p class="price">899</p>
+                        </td>
+                        <td class="per-change">
+                            <p></p>
+                            <i class="fa-solid fa-percent"></i>
+                            <i class="fa-solid fa-up"></i>
+                            <i class="fas fa-down"></i>
+                            <!-- <div class="icons">
+                            </div> -->
+                        </td>
+                    </tr>
+                    <tr class="active-row">
+                        <td>February</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>March</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>April</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr> 
+                    <tr>
+                        <td>May</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>June</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>August</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>September</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>October</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>November</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>December</td>
+                        <td>
+                            <p class="price"></p>
+                        </td>
+                        <td class="per-change">
+                            <p></p><i class="fa-solid fa-percent"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

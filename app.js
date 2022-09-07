@@ -147,7 +147,7 @@ let btn = document.getElementById("btn");
 //   })
 // );
 
-let data1 = [
+let data3 = [
   {
     month: "Jan",
     price: 899,
@@ -249,7 +249,7 @@ let data2 = [
   },
 ];
 
-let data3 = [
+let data1 = [
   {
     month: "Jan",
     price: 699,

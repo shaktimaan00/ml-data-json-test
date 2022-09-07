@@ -150,153 +150,153 @@ let btn = document.getElementById("btn");
 let data3 = [
   {
     month: "Jan",
-    price: 899,
+    price: 58990,
   },
   {
     month: "feb",
-    price: 899,
+    price: 59590,
   },
   {
     month: "mar",
-    price: 899,
+    price: 57310,
   },
   {
     month: "Apr",
-    price: 899,
+    price: 57599,
   },
   {
     month: "May",
-    price: 899,
+    price: 58750,
   },
   {
     month: "Jun",
-    price: 899,
+    price: 58699,
   },
   {
     month: "Jul",
-    price: 899,
+    price: 58999,
   },
   {
     month: "Aug",
-    price: 899,
+    price: 57659,
   },
   {
     month: "Sep",
-    price: 899,
+    price: 57899,
   },
   {
     month: "Oct",
-    price: 899,
+    price: 55999,
   },
   {
     month: "Nov",
-    price: 899,
+    price: 56499,
   },
   {
     month: "Dec",
-    price: 899,
+    price: 56299,
   },
 ];
 
 let data2 = [
   {
     month: "Jan",
-    price: 799,
+    price: 61990,
   },
   {
     month: "feb",
-    price: 799,
+    price: 62359,
   },
   {
     month: "mar",
-    price: 799,
+    price: 60799,
   },
   {
     month: "Apr",
-    price: 799,
+    price: 61459,
   },
   {
     month: "May",
-    price: 799,
+    price: 62349,
   },
   {
     month: "Jun",
-    price: 799,
+    price: 62450,
   },
   {
     month: "Jul",
-    price: 799,
+    price: 62634,
   },
   {
     month: "Aug",
-    price: 799,
+    price: 61939,
   },
   {
     month: "Sep",
-    price: 799,
+    price: 61455,
   },
   {
     month: "Oct",
-    price: 799,
+    price: 59200,
   },
   {
     month: "Nov",
-    price: 799,
+    price: 59000,
   },
   {
     month: "Dec",
-    price: 799,
+    price: 58990,
   },
 ];
 
 let data1 = [
   {
     month: "Jan",
-    price: 699,
+    price: 64599,
   },
   {
     month: "feb",
-    price: 699,
+    price: 63549,
   },
   {
     month: "mar",
-    price: 699,
+    price: 61499,
   },
   {
     month: "Apr",
-    price: 699,
+    price: 63799,
   },
   {
     month: "May",
-    price: 699,
+    price: 64959,
   },
   {
     month: "Jun",
-    price: 699,
+    price: 65999,
   },
   {
     month: "Jul",
-    price: 699,
+    price: 64499,
   },
   {
     month: "Aug",
-    price: 699,
+    price: 64199,
   },
   {
     month: "Sep",
-    price: 699,
+    price: 63789,
   },
   {
     month: "Oct",
-    price: 699,
+    price: 61399,
   },
   {
     month: "Nov",
-    price: 699,
+    price: 61499,
   },
   {
     month: "Dec",
-    price: 699,
+    price: 61990,
   },
 ];
 
